@@ -1,6 +1,6 @@
 # brixBar
 
-brixskin Sidebar (brixBar) is a fully touch enabled Sidebar Module based on jQuery. You can easily create a fully functional and well customizable Sidebar within only a few steps.
+brixskin Sidebar (brixBar) is a fully touch enabled Sidebar Plugin based on jQuery. You can easily create a fully functional and well customizable Sidebar within only a few steps.
 
 # Steps
   - First load the CSS File
