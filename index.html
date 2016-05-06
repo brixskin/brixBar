@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>your brixBar</title>
+<!-- Load brixNav CSS -->
+    <link rel="stylesheet" href="dist/brix.bar.min.css">
+</head>
+<body>
+    <sidebar class="brixBar">
+        <nav class="navigation">
+            <!-- insert your Content -->
+            <div class="heading">
+                <!-- Maybe a Heading Section in the Sidebar?! -->
+                <a id="sidebar-close">&nbsp;&nbsp;x</a>
+            </div>
+            <ul>
+                <li><a href="#">Some Links</a></li>
+                <li><a href="#">Some Links</a></li>
+                <li><a href="#">Some Links</a></li>
+            </ul>
+        </nav>
+    </sidebar>
+    <main>
+        <!-- insert website Content here -->
+        <h1>some Heading</h1>
+        <h2>simple Demo</h2>
+        <h3>Collapse the browser width to Mobiledevice Size and the Sidebar will be able to toggle.</h3>
+        <p>Customize your Sidebar Content like want it to be! There is no pre-styling. Have fun!</p>
+        <p><b>TIPP:</b> to test the touch abillity please usw your mobile phone or Google Chrome!</p>
+        <button id="sidebar-toggle">Toogle</button>
+    </main>
+    <!-- Load jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <!-- Load brixBar JS -->
+    <script type="text/javascript" src="dist/brix.bar.min.js"></script>
+    <script type="text/javascript">
+        <!-- on Document Load -->
+        (function($) {
+        <!-- init brix Navigation to sidebar -->
+            $('sidebar').brixBar();
+        })(jQuery);
+    </script>
+</body>
+</html>
