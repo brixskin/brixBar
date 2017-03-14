@@ -9,12 +9,12 @@ brixskin Sidebar (brixBar) is a fully touch enabled Sidebar Plugin based on jQue
  - [brixBar Demos](http://brixskin.de/sidebar/demos/)
 
 # CHANGELOG
- - v1.00
-  - Creating and Upload first final Version
- - v1.15a
-  - optimize usibility
-  - optimize Touchsensor reading
-  - optimize Performance
- - v1.20a
-  - Changing NavBar open width
-  - Adding Click Event to close beside NavBar
+## v1.00
+ _ Creating and Upload first final Version
+## v1.15a
+ _ optimize usibility
+ _ optimize Touchsensor reading
+ _ optimize Performance
+## v1.20a
+ _ Changing NavBar open width
+ _ Adding Click Event to close beside NavBar
